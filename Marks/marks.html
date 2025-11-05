@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mozilla+Headline:wght@200..700&family=Mozilla+Text:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Score Result Card</title>
+  <link rel="stylesheet" href="marks.css"/>
+  <script src="marks.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="result-box">
+      <h3>Your Result</h3>
+      <div class="score-circle">
+        <h1 id="NumResult">76.5</h1>
+        <p>of 100</p>
+      </div>
+      <h2 id="moralGalinta"></h2>
+      <p class="desc">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </div>
+
+    <div class="summary-box">
+      <h3>Summary</h3>
+
+      <div class="summary-item reaction">
+        <label>⚡ English</label>
+        <input type="text" placeholder="80 / 100" id="input1">
+      </div>
+
+      <div class="summary-item memory">
+        <label>🧠 Maths</label>
+        <input type="text" placeholder="92 / 100" id="input2">
+      </div>
+
+      <div class="summary-item verbal">
+        <label>💬 Physics</label>
+        <input type="text" placeholder="61 / 100" id="input13">
+      </div>
+
+      <div class="summary-item visual">
+        <label>👁 Biology</label>
+        <input type="text" placeholder="73 / 100" id="input14">
+      </div>
+      <button class="continue-btn" onclick="calculate()">calculate</button>
+    </div>
+  </div>
+</body>
+</html>
