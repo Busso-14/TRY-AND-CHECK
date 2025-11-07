@@ -102,27 +102,27 @@ body {
   color: inherit;
 }
 
-.reaction {
+.english {
   background: #fff6f5;
   color: #ff5555;
 }
 
-.memory {
+.maths {
   background: #fffbea;
   color: #ffb100;
 }
 
-.verbal {
+.physics {
   background: #f2fbfa;
   color: #00bfa6;
 }
 
-.visual {
+.biology {
   background: #f3f3fd;
   color: #4b4dff;
 }
 
-.continue-btn {
+.calculate-btn {
   width: 100%;
   padding: 14px;
   border: none;
@@ -135,7 +135,12 @@ body {
   transition: background 0.3s ease;
 }
 
-.continue-btn:hover {
+.calculate-btn:hover {
   background-color: #212a43;
 }
-
+@media (max-width: 632px){
+  .container{
+    flex-direction: column;
+    max-width: 500px;
+  }
+}
