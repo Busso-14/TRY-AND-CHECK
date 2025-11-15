@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: dodgerblue;
+  /* background-image: url(./background.jpg); */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* background-color: rgb(145, 145, 145);
+  background-blend-mode: overlay; */
+}
+#clock-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
+#clock{
+  
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  /* backdrop-filter: blur(6px);
+  width: 100%;
+  background-color: hsla(0, 0%, 100%, 0.1); */
+}
+.twoContainer{
+  background-color: #262525;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  border-radius: 6px;
+}
+.twoContainer p{
+  opacity: 0.8;
+}
